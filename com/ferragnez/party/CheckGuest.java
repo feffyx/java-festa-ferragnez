@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class CheckGuest {
 
     // Nomi Invitati
-    String [] listaInvitati = {"Lorenzo", "Marta", "Giovanni", "Giada"};
+    String[] listaInvitati = {"Lorenzo", "Marta", "Giovanni", "Giada"};
 
     public static void main(String[] args) {
 
@@ -11,7 +11,7 @@ public class CheckGuest {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Inserisci il tuo nome:");
-        String nomeInvitato= scanner.nextLine();
+        String nomeInvitato = scanner.nextLine();
 
         // Verifica se il nome risulta nella lista
         CheckGuest checkGuest = new CheckGuest();
